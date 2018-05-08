@@ -33,7 +33,8 @@ public class PickOutCPT {
     public Map<String, String[]> getCPT(String graphInfo) {
 
         try {
-            FileWriter fr = new FileWriter(new File(PathUtil.getCurrentPath() + "/" + ConstantsUtil.GRAPH_FILE));
+            //            FileWriter fr = new FileWriter(new File(PathUtil.getCurrentPath() + "/" + ConstantsUtil.GRAPH_FILE));
+            FileWriter fr = new FileWriter(new File(ConstantsUtil.GRAPH_FILE));
             BufferedWriter br = new BufferedWriter(fr);
             br.write(graphInfo);
             //            logger.info(graphInfo);
@@ -52,7 +53,8 @@ public class PickOutCPT {
         try {
             String word = "";
             StringBuffer sb = new StringBuffer();
-            FileReader f = new FileReader(PathUtil.getCurrentPath() + "/" + ConstantsUtil.GRAPH_FILE);
+            //            FileReader f = new FileReader(PathUtil.getCurrentPath() + "/" + ConstantsUtil.GRAPH_FILE);
+            FileReader f = new FileReader(ConstantsUtil.GRAPH_FILE);
             BufferedReader br = new BufferedReader(f);
             try {
                 while ((word = br.readLine()) != null) {

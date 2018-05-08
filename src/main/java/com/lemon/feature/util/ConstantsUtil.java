@@ -2,10 +2,11 @@ package com.lemon.feature.util;
 
 public class ConstantsUtil {
 
-    public static final String RAW_PATH = "/data/yhg/model/result/";
-    public static final String MODEL_PATH = "config/model/";
-    public static final String GRAPH_FILE = "config/graph.xml";
-    public static final String BAYESNET_PATH = "/data/zp/BayesNet/";
+//    public static final String RAW_PATH = "/data/yhg/model/result/";
+    public static final String RAW_PATH = "D:/config/data/";
+    public static final String MODEL_PATH = "D:/config/model/";
+    public static final String GRAPH_FILE = "D:/config/graph.xml";
+    public static final String BAYESNET_PATH = "D:/config/BayesNet/";
 
     //    public static final String RAW_PATH = "/data/yhg/model/result_picktest/";
     //    public static final String MODEL_PATH = "config/model_picktest/";
